@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_coba1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.day1.Coba1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/Raflesia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:layout_below="@id/imageView"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#c2291b"
+        android:background="@color/HijauMuda"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Raflesia"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+            android:id="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Raflesia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Pengertian"
+            android:textSize="30dp"
+            android:textColor="@color/HijauMuda"
+            android:background="@color/Hitam"
+            />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

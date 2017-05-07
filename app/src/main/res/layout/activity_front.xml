@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_front"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.day1.FrontActivity">
+
+    <ImageView
+        android:id="@+id/Raflesia"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/Masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:textStyle="bold"
+        android:background="@color/HijauMuda"
+        android:textSize="17dp"
+        android:layout_below="@id/Raflesia"
+        />
+</RelativeLayout>
